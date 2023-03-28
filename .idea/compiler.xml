@@ -6,8 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-hello-world" />
+        <module name="multi-data-source-demo" />
         <module name="data-source-demo" />
+        <module name="spring-hello-world" />
+        <module name="h2-data-source-demo" />
       </profile>
     </annotationProcessing>
   </component>

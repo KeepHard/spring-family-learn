@@ -11,6 +11,8 @@
     <modules>
         <module>spring-hello-world</module>
         <module>data-source-demo</module>
+        <module>multi-data-source-demo</module>
+        <module>h2-data-source-demo</module>
     </modules>
 
     <properties>
