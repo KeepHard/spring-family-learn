@@ -13,6 +13,10 @@
         <module>data-source-demo</module>
         <module>multi-data-source-demo</module>
         <module>h2-data-source-demo</module>
+        <module>druid-demo</module>
+        <module>simple-jdbc-demo</module>
+        <module>programmatic-transaction-demo</module>
+        <module>declarative-transaction-demo</module>
     </modules>
 
     <properties>

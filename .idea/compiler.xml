@@ -6,10 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="druid-demo" />
+        <module name="programmatic-transaction-demo" />
         <module name="multi-data-source-demo" />
+        <module name="simple-jdbc-demo" />
         <module name="data-source-demo" />
         <module name="spring-hello-world" />
         <module name="h2-data-source-demo" />
+        <module name="declarative-transaction-demo" />
       </profile>
     </annotationProcessing>
   </component>
