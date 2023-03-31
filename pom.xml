@@ -18,6 +18,7 @@
         <module>programmatic-transaction-demo</module>
         <module>declarative-transaction-demo</module>
         <module>declarative-propagation-demo</module>
+        <module>druid-faq-demo</module>
     </modules>
 
     <properties>

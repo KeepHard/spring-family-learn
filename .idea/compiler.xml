@@ -9,6 +9,7 @@
         <module name="druid-demo" />
         <module name="declarative-propagation-demo" />
         <module name="programmatic-transaction-demo" />
+        <module name="druid-faq-demo" />
         <module name="multi-data-source-demo" />
         <module name="simple-jdbc-demo" />
         <module name="data-source-demo" />

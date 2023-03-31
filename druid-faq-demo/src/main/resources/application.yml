@@ -1,0 +1,25 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/spring-family?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+    username: root
+    password: AvW5+aOk4yXODXeF5Zk+MF+vOG1L7iFWu7YfFn0NjOqyxK3ZyVVuXHnbiGaF1bnv625bDo4UCUDufCk/m0g5uA==
+    druid:
+      initial-size: 2
+      max-active: 5
+      min-idle: 2
+      filters: config,slf4j
+      connection-properties: config.decrypt=true;config.decrypt.key=${public-key}
+      test-on-borrow: true
+      test-on-return: true
+      test-while-idle: true
+
+      filter:
+        stat:
+          log-slow-sql: true
+          slow-sql-millis: 100
+#          enabled: true
+
+
+
+public-key: MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAMFGBd9CFjnUgYeyKQ5ntmjA25wI0+Tkko8FalNti5VZrXXoCCjiVWxdYDFMGrfI3fDlTrV7IpMiRuFR+yf4QE0CAwEAAQ==
